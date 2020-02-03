@@ -18,36 +18,37 @@
 
         <!--------------------------------------- This is the navigation -------------------------------->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <a class="navbar-brand img-fluid" href="#"><img src="images/logo.svg" alt="Rafsan's Meat Yogurt" style="width: 150px; height: auto;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                <ul class="navbar-nav ml-auto float-right">
+
+                    <li class="nav-item dropdown  btn btn-light mr-4" style="width: 200px;">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
+                            Flavors
                         </a>
+
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Ham</a>
+                            <a class="dropdown-item" href="#">Beef</a>
+                            <a class="dropdown-item" href="#">Chicken</a>
+                            <a class="dropdown-item" href="#">Fish</a>
                         </div>
+
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+
+                    <li class="nav-item  btn btn-light" style="width: 200px;">
+                        <a class="nav-link text-white" href="#">
+                            Contact
+                        </a>
                     </li>
+
                 </ul>
             </div>
         </nav>
@@ -60,7 +61,7 @@
                 <div class="col-12 col-md-7 text-center text-md-left">
                     <h1 class="display-3 text-white drop-shadow">Thick & Creamy</h1>
                     <p class="lead">With real meat chunks.</p>
-                    <a class="btn btn-light btn-lg mt-4 px-5 py-3 mb-5" href="#" role="button">Pricing</a>
+                    <a class="btn btn-light btn-lg mt-4 px-5 py-3 mb-5 text-white" href="#" role="button">Pricing</a>
         
                 </div>
                 <div class="col-12 col-md-5">
@@ -71,9 +72,26 @@
         </div>
 
 
+
+        <!----------------------------------------- Founders Message ------------------------------------------------->
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <img src="images/headshot-dan.jpg" alt="" class="img-fluid border rounded-left border-large border-0">
+            </div>
+            <div class="col-12 col-md-8 p-5 bg-white d-flex align-items-center border border-dark rounded-right border-large">
+                <section>
+                    <h2>Message from our founder</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias veritatis quod, id eos, iste blanditiis quas possimus impedit quam ex at dolorum asperiores autem enim alias reiciendis a labore eligendi? Earum quas at ipsam repellat doloribus incidunt, eum deserunt veniam dolorem, cupiditate odio rem assumenda neque ad sunt. A eius delectus impedit repellat laborum placeat quibusdam. Magni sint commodi esse?
+                    </p>
+                </section>
+            </div>
+        </div>
+
         <!------------------------------------------This is Carousel-------------------------------------------------->
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide d-none d-md-block carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/yogurt-1.png" class="d-block w-100" alt="...">
@@ -97,33 +115,35 @@
 
         <!------------------------------------------This is Cards-------------------------------------------------->
 
-        <div class="card" style="width: 18rem;">
-            <img src="images/product1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card-deck my-5">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/product1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                </div>
             </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="images/product2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/product2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                </div>
             </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="images/product3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/product3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                </div>
             </div>
         </div>
 
